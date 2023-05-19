@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.blog-container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-section {
+    background-image: url('../img/people-old-and-young-hand-holding-with-sunset-background-web.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.image-section h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.link-section {
+    margin-top: 20px;
+}
+
+.link-section a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.link-section a .blog-text {
+    text-decoration: underline;
+}
+
+.blog-content {
+    flex: 1;
+    /* Add styling for your blog content */
+}

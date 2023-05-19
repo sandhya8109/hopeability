@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.blog-container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+}
+
+.section {
+    display: block;
+    background-color: #fff;
+}
+
+.image-section {
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    margin: 0 0 20px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    z-index: 1;
+    background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)) center center / cover no-repeat, url(../img/pexels-photo-5068681.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.image-section h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.link-section {
+    margin-top: 20px;
+}
+
+.link-section a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.link-section a .blog-text {
+    text-decoration: underline;
+}
+
+.blog-content {
+    flex: 1;
+
+    /* Add styling for your blog content */
+    background-color: #fff;
+}
+
+
+
+/* .first {
+    max-width: 100%;
+    padding: 20px;
+    background-color: #fdfcfc;
+    border-radius: 5px;
+    height: 250px;
+    text-align: center;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.first p {
+    max-height: 6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    line-height: 1.5em;
+    width: 50%;
+    margin-left: 350px;
+    margin-top: 30px;
+
+} */
+
+
+.send-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+    background: #090909;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.send-btn:hover {
+    background-color: #13aef072;
+
+    color: black;
+}
+
+@media (max-width: 768px) {
+
+    .first {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .first p {
+        max-height: none;
+    }
+}
+
+
+
+.bg-light p {
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    margin-left: 20%;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 30px 30px 30px 30px;
+}
+
+.contact {
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    margin-left: 60%;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
+
+}
+
+
+.contact h1 {
+    text-align: center;
+    color: #3a5668;
+}
+
+.contact h3 {
+    text-align: center;
+    color: #3a5668;
+    font-weight: 400;
+}
+
+.contact p {
+
+    text-align: start;
+    font-weight: 300;
+}
+
+.A {
+    color: red;
+}
+
+.contact label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact input[type="text"],
+.contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.contact input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px dashed #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.contact label.required::after {
+    content: '*';
+    color: red;
+}
+
+.contact input[type="submit"] {
+    background-color: #274a84;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #13aff0;
+    ;
+}
+
+@media (max-width: 450px) {
+    .contact {
+        max-width: 100%;
+        padding: 100%;
+    }
+}
+
+.contact {
+    /* max-width: 600px; */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact input[type="submit"] {
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
