@@ -50,11 +50,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="./index.php" class="nav-item nav-link active">Home</a>
                         <a href="#" class="nav-item nav-link">Our Services</a>
                         <a href="./about.php" class="nav-item nav-link">About</a>
                         <a href="./resigter.php" class="nav-item nav-link">Registered NDIS Provider</a>
-                        <a href="#" class="nav-item nav-link">Contact</a>
+                        <a href="./contact.php" class="nav-item nav-link">Contact</a>
                         <a href="./with us.php" class="nav-item nav-link">Work With Us</a>
                         <a href="./blog.php" class="nav-item nav-link">Blog</a>
                     </div>
