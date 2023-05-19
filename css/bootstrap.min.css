@@ -490,7 +490,7 @@ progress {
 
 .display-1 {
     font-size: calc(1.625rem + 4.5vw);
-    font-weight: 800;
+    font-weight: 500;
     line-height: 1.2
 }
 
