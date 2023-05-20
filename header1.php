@@ -35,7 +35,6 @@
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
     <div class="container-fluid bg-white sticky-top">
         <div class="container">
@@ -50,8 +49,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="./index.php" class="nav-item nav-link active">Home</a>
-                        <a href="#" class="nav-item nav-link">Our Services</a>
+                        <a href="./index.php" class="nav-item nav-link">Home</a>
+                        <a href="./services.php" class="nav-item nav-link">Our Services</a>
                         <a href="./about.php" class="nav-item nav-link">About</a>
                         <a href="./resigter.php" class="nav-item nav-link">Registered NDIS Provider</a>
                         <a href="./contact.php" class="nav-item nav-link">Contact</a>
@@ -67,6 +66,9 @@
         </div>
     </div>
     <!-- Navbar End -->
+
+
+
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
