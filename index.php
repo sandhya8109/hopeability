@@ -6,7 +6,7 @@ include('header1.php')
 
 <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>eLEARNING - eLearning HTML Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -37,13 +37,26 @@ include('header1.php')
 </head>
 
 <body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+
+    <!-- Navbar End -->
 
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="./img/front-view-smiley-girl-woman-indoors.jpg" alt="">
+                <img class="img-fluid" src="img/front-view-smiley-girl-woman-indoors.jpg" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
@@ -122,7 +135,7 @@ include('header1.php')
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-trophy text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
                             <h5 class="mb-3">Development-Life Skills</h5>
                             <p>Development of daily living and life skills focues on training and development activites.
                             </p>
@@ -132,7 +145,7 @@ include('header1.php')
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-star text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
                             <h5 class="mb-3">Personal Activites</h5>
                             <p>Assisting with and/or supervising personal tasks of daily life to enable the participant
                                 to.</p>
@@ -142,7 +155,7 @@ include('header1.php')
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-list-check text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
                             <h5 class="mb-3">Assistance Life Tasks</h5>
                             <p>This registration group incorporates assistance with or supervising tasks of daily life.
                             </p>
@@ -183,6 +196,76 @@ include('header1.php')
         </div>
     </div>
     <!-- Courses End -->
+    <div style="background-color: #88bc6f;">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
+
+                    <h1 class="mb-5" style="color: #fff;">We Are Registered NDIS Provider</h1>
+                    <a class="btn btn-primary py-3 px-5 "
+                        style="border-radius: 10px; background-color: #274a84; border: #24343899; margin-bottom: 30px;"
+                        href="">Refer a Participant</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
+
+                <h3 class="mb-5">Looking For Advice?</h3>
+                <p class="mb-5">Call us on 1300 424 442 to talk about your needs. Or fill out the form below and our
+                    Care Advisors will be in touch soon.</p>
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d973.7902539402759!2d131.01108536954771!3d-12.505484499235527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2cc0a311b353d393%3A0xda11542df27d0569!2s3%20Grumman%20Cres%2C%20Zuccoli%20NT%200832%2C%20Australia!5e0!3m2!1sen!2snp!4v1684496714930!5m2!1sen!2snp"
+                        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 150px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
