@@ -60,19 +60,19 @@
             </div>
 
             <div class="privacy">
-                <span>Privacy Policy</span>
+                <span><a href="./privacy.php">Privacy Policy</a></span>
                 &nbsp; &nbsp; &nbsp;
-                <span>Terms & Conditions</span>
+                <span><a href="./terms.php">Terms & Conditions</a></span>
             </div>
         </div>
 
         <div class="footer-right">
             <h3>Social Links</h3>
             <div class="footer-icons">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/hopeabilityofficial/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/hope_ability/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/hope-ability/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="//twitter.com/Hopeabilityau"><i class="fa-brands fa-twitter"></i></a>
                 <img src="./img/I-Heart-NDIS_2020.svg">
             </div>
         </div>

@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disability & Home Care Service</title>
     <link rel="stylesheet" href="../css/style1.css">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./bootstrap.min1.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 </head>
@@ -16,19 +17,30 @@
 <body>
     <!-- Topbar Start -->
     <div class="container-fluid bg-primary text-white  d-lg-flex">
+        <style>
+            .container py-3 d-flex a {
+                color: #fff;
+            }
+        </style>
         <div class="container py-3 d-flex">
             <div class="ms-auto d-flex align-items-center">
-                <small class="ms-4"><i class="fa fa-phone me-3"></i>1300 424 442</small>
-                <small class="ms-4"><i class="fa fa-download me-3"></i>Important Documents</small>
-                <small class="ms-4"><i class="fa fa-user-plus me-3"></i>Referrals</small>
+                <a href="https://twitter.com/Hopeabilityau"> <small class="ms-4"><i class="fa fa-phone me-3"></i>1300
+                        424 442</small></a>
+                <a href="./imp.php"><small class=" ms-4"><i class="fa fa-download me-3"></i>
+                        Important
+                        Documents</small></a>
+                <a href="./referelform.php"> <small class="ms-4"><i
+                            class="fa fa-user-plus me-3"></i>Referrals</small></a>
             </div>
             <div class="ms-3 d-flex">
-                <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href=""><i
-                        class="fab fa-facebook-f" style="color: #274a84;"></i></a>
-                <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href=""><i
-                        class="fab fa-twitter" style="color: #274a84;"></i></a>
-                <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href=""><i
-                        class="fa-brands fa-square-instagram" style="color: #274a84;"></i></a>
+                <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2"
+                    href="https://www.facebook.com/hopeabilityofficial/"><i class="fab fa-facebook-f"
+                        style="color: #274a84;"></i></a>
+                <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2"
+                    href="https://twitter.com/Hopeabilityau"><i class="fab fa-twitter" style="color: #274a84;"></i></a>
+                <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2"
+                    href="https://www.instagram.com/hope_ability/"><i class="fa-brands fa-square-instagram"
+                        style="color: #274a84;"></i></a>
             </div>
 
         </div>

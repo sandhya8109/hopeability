@@ -223,14 +223,15 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
   display: inline-block;
   padding: 8px;
   color: white;
-  background: linear-gradient(to top right, #2a7e69 0%, #ffffff 100%);
+  background-color: #274a84;
   text-align: center;
   cursor: pointer;
   width: 50%;
 }
 
 .button:hover {
-  background: linear-gradient(to top right, #33d9b2 0%, #ffffff 100%);
+  background-color: #fff;
+  color: #57C6E4;
 }
 
 .container-1 {
@@ -296,9 +297,9 @@ input:focus {
 
 button {
   padding: 10px;
-  border-radius: 15px;
+
   background-color: #274a84;
-  border: none;
+
   font-weight: 500;
   font-size: 15px;
   cursor: pointer;
@@ -306,12 +307,15 @@ button {
   color: #fff;
   display: flex;
   justify-content: center;
+  border-radius: 1px #57C6E4;
   margin-right: 170px;
+
 }
 
 button:hover {
   transform: scale(1.1);
-  background-color: #57C6E4
+  background-color: #fff;
+  color: #57C6E4;
 }
 
 .textarea_control {

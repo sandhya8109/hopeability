@@ -6,7 +6,7 @@ include('header1.php')
 
 <head>
     <meta charset="utf-8">
-    <title>eLEARNING - eLearning HTML Template</title>
+    <title>home</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -30,21 +30,22 @@ include('header1.php')
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./bootstrap.min.css" rel="stylesheet">
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style3.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Spinner Start -->
+    <!-- Spinner Start 
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
     </div>
-    <!-- Spinner End -->
+    Spinner End -->
 
 
     <!-- Navbar Start -->
@@ -65,7 +66,8 @@ include('header1.php')
 
                                 <h1 class="display-1 text-white animated slideInDown">We Care With Respect</h1>
                                 <p class="fs-5 text-white mb-4 pb-2">Personalised Disability & Home Care Services.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">CLICK HERE
+                                <a href="./contact.php"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">CLICK HERE
                                     TO GET STARTED</a>
 
                             </div>
@@ -85,7 +87,8 @@ include('header1.php')
 
                                 <h1 class="display-1 text-white animated slideInDown">We Care With Respect</h1>
                                 <p class="fs-5 text-white mb-4 pb-2">Personalised Disability & Home Care Services.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">CLICK HERE
+                                <a href="./contact.php"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">CLICK HERE
                                     TO GET STARTED</a>
 
                             </div>
@@ -116,7 +119,7 @@ include('header1.php')
                     <p class="mb-4">Hope Ability management has years of experience in disability services along with
                         extensive experience in customer focused public and private sector. Our vision is to empower
                         participants to take ownership of their life.</p>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="./about.php">Read More</a>
                 </div>
             </div>
         </div>
@@ -135,7 +138,7 @@ include('header1.php')
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-trophy text-primary mb-4"></i>
                             <h5 class="mb-3">Development-Life Skills</h5>
                             <p>Development of daily living and life skills focues on training and development activites.
                             </p>
@@ -145,7 +148,7 @@ include('header1.php')
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-star text-primary mb-4"></i>
                             <h5 class="mb-3">Personal Activites</h5>
                             <p>Assisting with and/or supervising personal tasks of daily life to enable the participant
                                 to.</p>
@@ -155,7 +158,7 @@ include('header1.php')
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-list-check text-primary mb-4"></i>
                             <h5 class="mb-3">Assistance Life Tasks</h5>
                             <p>This registration group incorporates assistance with or supervising tasks of daily life.
                             </p>
@@ -164,14 +167,14 @@ include('header1.php')
                 </div>
             </div>
             <div style="display: flex; justify-content: center;"> <a class="btn btn-primary py-3 px-5 mt-4 "
-                    href="">Read More</a></div>
+                    href="./services.php">Read More</a></div>
         </div>
 
     </div>
     <!-- Services End -->
 
 
-    <!-- Courses Start -->
+    <!-- Mission Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
@@ -195,7 +198,7 @@ include('header1.php')
             </div>
         </div>
     </div>
-    <!-- Courses End -->
+    <!-- Mission End -->
     <div style="background-color: #88bc6f;">
         <div class="container-xxl py-5">
             <div class="container">
@@ -203,8 +206,8 @@ include('header1.php')
 
                     <h1 class="mb-5" style="color: #fff;">We Are Registered NDIS Provider</h1>
                     <a class="btn btn-primary py-3 px-5 "
-                        style="border-radius: 10px; background-color: #274a84; border: #24343899; margin-bottom: 30px;"
-                        href="">Refer a Participant</a>
+                        style="border-radius: 10px; background-color: #24343899; border: #24343899; margin-bottom: 30px;"
+                        href="./resigter.php">Refer a Participant</a>
                 </div>
             </div>
         </div>
@@ -224,10 +227,10 @@ include('header1.php')
             <div class="row g-4">
 
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d973.7902539402759!2d131.01108536954771!3d-12.505484499235527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2cc0a311b353d393%3A0xda11542df27d0569!2s3%20Grumman%20Cres%2C%20Zuccoli%20NT%200832%2C%20Australia!5e0!3m2!1sen!2snp!4v1684496714930!5m2!1sen!2snp"
-                        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="position-relative rounded w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                        frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
                 </div>
                 <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
                     <form>

@@ -232,12 +232,12 @@ sup {
 }
 
 a {
-    color: #06BBCC;
+    color: #f9fbfb;
     text-decoration: none
 }
 
 a:hover {
-    color: #0596a3
+    color: #57c6e4;
 }
 
 a:not([href]):not([class]),
@@ -3071,7 +3071,7 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-    color: #000;
+    color: #fff;
     background-color: #274a84;
     border-color: #274a84
 }
@@ -4509,8 +4509,8 @@ navbar-dark .navbar-text a:focus {
 }
 
 .accordion-button:not(.collapsed) {
-    color: #05a8b8;
-    background-color: #e6f8fa;
+    color: #57c6e4;
+    background-color: #fdfdfd;
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125)
 }
 

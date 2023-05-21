@@ -31,7 +31,8 @@ include('header1.php')
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="/bootstrap.min1.css" rel="stylesheet">
+
+    <link href="./bootstrap.min.css" rel="stylesheet">
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -49,9 +50,10 @@ include('header1.php')
                     <h1 class="display-3 text-white animated slideInDown">Blog</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="./index.php">Home</a></li>
 
-                            <li class="breadcrumb-item text-white active" aria-current="page">Blog</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page"><a class="text-white"
+                                    href="./blog.php">Blog</a></li>
                         </ol>
                     </nav>
                 </div>

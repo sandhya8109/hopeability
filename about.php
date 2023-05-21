@@ -92,9 +92,10 @@ include('header1.php')
                     <h1 class="display-3 text-white animated slideInDown">About Us</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="./index.php">Home</a></li>
 
-                            <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page"><a class="text-white"
+                                    href="./about.php">About</a></li>
                         </ol>
                     </nav>
                 </div>
@@ -131,7 +132,7 @@ include('header1.php')
                         an enhanced quality of life. Participants are supported to integrate within their community,
                         with family and friends, in a manner that assists them to meet their goals by having their views
                         and input valued, which is their legal and human right.</p>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Get Started</a>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="./contact.php">Get Started</a>
                 </div>
             </div>
         </div>

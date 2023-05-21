@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    --primary: #57C6E4;
     --light: #F0FBFC;
     --dark: #181d38;
 }
@@ -22,6 +22,20 @@
 }
 
 
+/*** Spinner 
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+***/
 
 /*** Button ***/
 .btn {
@@ -65,6 +79,37 @@
     justify-content: center;
     font-weight: normal;
     border-radius: 0px;
+}
+
+.service-btn {
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid #57C6E4;
+    background-color: #57C6E4;
+    transition: .5s;
+}
+
+.service-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.service-btn:hover {
+    color: #57C6E4;
+    transform: scale(1.1);
+    background-color: #fff;
+}
+
+.service-btn a:hover {
+    color: #57C6E4;
+    transform: scale(1.1);
+    background-color: #fff;
 }
 
 
@@ -115,11 +160,10 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/Volunteer-helping-elderly-scaled.jpg);
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/carousel-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
 }
 
 .page-header-inner {
@@ -130,31 +174,6 @@
     color: var(--light);
 }
 
-/*** New ***/
-.row {
-    line-height: 25.5x;
-    padding-left: 50px;
-    padding-right: 40px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: justify;
-}
-
-.img-fluid {
-    border-radius: 40px 10px 40px 10px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-}
-
-.btn.btn-primary {
-    margin-top: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-}
-
-.btn.btn-primary:hover {
-    background-color: #fff;
-
-}
 
 /*** Section Title ***/
 .section-title {

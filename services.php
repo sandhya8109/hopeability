@@ -15,6 +15,7 @@ include('header1.php')
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/style2.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
 
 </head>
 
@@ -27,8 +28,10 @@ include('header1.php')
                     <h1 class="display-3 text-white animated slideInDown">Our Services</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="./index.php">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page"><a class="text-white"
+                                    href="./services.php">
+                                    Services</a></li>
                         </ol>
                     </nav>
                 </div>
@@ -61,7 +64,7 @@ include('header1.php')
             <img class="img-fluid"
                 src="https://www.hopeability.com.au/wp-content/uploads/2021/03/respite-carenarrow-1.webp"
                 alt="Volunteer">
-            <a href="#"><button class="btn btn-primary col-12">Get Started</button></a>
+            <a href="./contact.php"><button class="btn btn-primary col-12">Get Started</button></a>
         </div>
     </div>
 
@@ -113,7 +116,7 @@ include('header1.php')
         <div class="col-md-4">
             <img class="img-fluid" src="https://www.hopeability.com.au/wp-content/uploads/2021/11/Daily-Life-Tasks.jpg"
                 alt="Volunteer">
-            <a href="#"><button class="btn btn-primary col-10">Get Started</button></a>
+            <a href="./contact.php"><button class="btn btn-primary col-10">Get Started</button></a>
         </div>
     </div>
 
@@ -139,7 +142,7 @@ include('header1.php')
             <img class="img-fluid"
                 src="https://www.hopeability.com.au/wp-content/uploads/2021/11/NDIS_Household_Tasks_image.jpg"
                 alt="Volunteer">
-            <a href="#"><button class="btn btn-primary col-10">Get Started</button></a>
+            <a href="./contact.php"><button class="btn btn-primary col-10">Get Started</button></a>
         </div>
     </div>
 
@@ -167,7 +170,7 @@ include('header1.php')
             <img class="img-fluid"
                 src="https://www.hopeability.com.au/wp-content/uploads/2021/03/Assistance-with-Travel-Image-1.webp"
                 alt="Volunteer">
-            <a href="#"><button class="btn btn-primary col-12">Get Started</button></a>
+            <a href="./contact.php"><button class="btn btn-primary col-12">Get Started</button></a>
         </div>
     </div>
 
@@ -200,7 +203,7 @@ include('header1.php')
             <img class="img-fluid"
                 src="https://www.hopeability.com.au/wp-content/uploads/2021/11/Social-And-Civic-Activities.jpg"
                 alt="Volunteer">
-            <a href="#"><button class="btn btn-primary col-10">Get Started</button></a>
+            <a href="./contact.php"><button class="btn btn-primary col-10">Get Started</button></a>
         </div>
     </div>
 
@@ -228,7 +231,7 @@ include('header1.php')
             <img class="img-fluid"
                 src="https://www.hopeability.com.au/wp-content/uploads/2021/03/NDIS_Household_Tasks_image.webp"
                 alt="Volunteer">
-            <a href="#"><button class="btn btn-primary col-12">Get Started</button></a>
+            <a href="./contact.php"><button class="btn btn-primary col-12">Get Started</button></a>
         </div>
     </div>
     <script src="main.js"></script>

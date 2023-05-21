@@ -25,6 +25,7 @@ include('header1.php')
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="/bootstrap.min1.css" rel="stylesheet">
+    <link href="./css/style2.css" rel="stylesheet">
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -50,8 +51,8 @@ include('header1.php')
                 <h1 class="display-3 text-white animated slideInDown">Work with us</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Work with us</a></li>
+                        <li class="breadcrumb-item"><a class="text-white" href="./index.php">Home</a></li>
+                        <li class="breadcrumb-item"><a class="text-white" href="./with us.php">Work with us</a></li>
 
                     </ol>
                 </nav>

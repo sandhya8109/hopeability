@@ -35,6 +35,7 @@ include('header1.php')
   <!-- Template Stylesheet -->
   <link href="./css/style1.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/style3.css" rel="stylesheet">
   <link href="./css/contact.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -93,9 +94,10 @@ include('header1.php')
           <h1 class="display-3 text-white animated slideInDown">Contact us</h1>
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb justify-content-center">
-              <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+              <li class="breadcrumb-item"><a class="text-white" href="./index.php">Home</a></li>
 
-              <li class="breadcrumb-item text-white active" aria-current="page">contact</li>
+              <li class="breadcrumb-item text-white active" aria-current="page"><a class="text-white"
+                  href="./contact.php">contact</a></li>
             </ol>
           </nav>
         </div>
@@ -204,7 +206,7 @@ include('header1.php')
         For Enquiry Form
       </h1>
       <br>
-      <form action="https://formspree.io/f/mlekoogj" method="POST">
+      <form>
         <div class="form_container">
           <div class="form_control">
             <label for="first_name"> First Name </label>

@@ -20,7 +20,7 @@ include('header1.php')
     <link
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
-    <link href="./css/style1.css" rel="stylesheet">
+    <link href="./css/style2.css" rel="stylesheet">
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -31,9 +31,11 @@ include('header1.php')
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="./bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -50,8 +52,9 @@ include('header1.php')
                 <h1 class="display-3 text-white animated slideInDown">Registered NDIS Provider</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Registered NDIS Provider</a></li>
+                        <li class="breadcrumb-item"><a class="text-white" href="./index.php">Home</a></li>
+                        <li class="breadcrumb-item"><a class="text-white" href="./resigter.php">Registered NDIS
+                                Provider</a></li>
 
                     </ol>
                 </nav>
@@ -62,11 +65,7 @@ include('header1.php')
     <!-- Header End -->
 
     <section class="bg-light">
-        <style>
-            .bg-light {
-                background-color: #fff !important;
-            }
-        </style>
+
         <div class="first bg-light">
             <p>The below information is about NDIS, how it works, who qualifies for NDIS, what funding is available and
                 what can it be spent on, careers as a support worker. If you have any questions, please asks for more
@@ -81,15 +80,19 @@ include('header1.php')
                     margin-bottom: 2%;
                     margin-left: 45%;
                     color: white;
-                    border: none;
+                    border-radius: 1px solid #57C6E4;
                     text-decoration: none;
                     cursor: pointer;
                     font-size: 16px;
-                    border-radius: 4px;
+
+                    transition: .5s;
+                    font-weight: 500;
                 }
 
                 .my-button:hover {
-                    background-color: #34B8DD;
+                    color: #57C6E4;
+                    background-color: #FFF;
+
                 }
 
                 @media screen and (max-width: 768px) {
@@ -100,7 +103,7 @@ include('header1.php')
                     }
                 }
             </style>
-            <button class="my-button">Learn More</button>
+            <button class="my-button"><a href="https://www.ndis.gov.au/">Learn More</a></button>
         </div>
     </section>
     <br>
