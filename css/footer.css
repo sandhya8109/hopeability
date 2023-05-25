@@ -20,22 +20,7 @@ hr {
 }
 
 
-/* The footer is fixed to the bottom of the page */
 
-footer {
-    position: fixed;
-    bottom: 0;
-}
-
-@media (max-height:800px) {
-    footer {
-        position: static;
-    }
-
-    header {
-        padding-top: 40px;
-    }
-}
 
 .footer-distributed {
     background-color: #3A5668;
@@ -44,7 +29,7 @@ footer {
     text-align: left;
     font: bold 16px sans-serif;
     padding: 50px 50px 10px 50px;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 .footer-distributed .footer-left,
@@ -198,10 +183,9 @@ footer {
 }
 
 .footer-distributed .footer-right .footer-icons img {
-    padding: 0px;
-    margin: 50px;
+    margin-top: 50px;
     height: 100px;
-    width: 100px;
+    width: 200px;
 }
 
 @media (max-width: 880px) {
@@ -231,18 +215,23 @@ footer {
     }
 
     .footer-distributed .footer-left .img-footer {
-        padding-left: 50px;
+        padding-left: 0px;
     }
 
     .footer-distributed .footer-company-name {
-        margin: 10px;
+        margin: 0px;
     }
 
     .footer-distributed .footer-center p {
-        margin: 0 0 auto;
+        margin: 0px 0px auto;
+        padding-left: 0px;
     }
 
     .footer-distributed .footer-right .img {
         padding: 0;
+    }
+    .footer-distributed .footer-center .privacy {
+        margin: 50px;
+        line-height: 30px;
     }
 }

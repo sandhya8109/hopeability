@@ -69,13 +69,22 @@ include('header1.php')
             }
         </style>
         <div class="first bg-light">
+        <h2 class="kt-adv-heading_ecd870-b6 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading_ecd870-b6">Join our team</h2>
             <p>We are always on the lookout for the best Disability Support Workers and Community Nurses. Our
                 culture is all about creating a safe space for the whole team. Our values are respect, inclusion, and
                 friendly support. If you think you’d be a great fit, we would love to hear from you.</p>
         </div>
     </section>
-    <br>
-    <br>
+   
+    <div class="  kt-inside-inner-col">
+<h2 class="kt-adv-heading_ecd870-b6 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading_ecd870-b6">Our Current Vacancy</h2>
+
+
+<div class="ps_career_list_wrap"><div class="ps_career_list_info"><div class="ps_career_list_title"><i class="far fa-dot-circle"></i>&nbsp; Admin Officer</div><div class="ps_career_rm_link"><a href="https://www.purplesupport.com.au/careers/admin-officer/">(Find Out More)</a></div></div><div class="ps_career_list_wrap"><div class="ps_career_list_info"><div class="ps_career_list_title"><i class="far fa-dot-circle"></i>&nbsp;Disability Support Worker</div><div class="ps_career_rm_link"><a href="https://www.purplesupport.com.au/careers/disability-support-worker/">(Find Out More)</a></div></div><div class="ps_career_list_wrap"><div class="ps_career_list_info"><div class="ps_career_list_title"><i class="far fa-dot-circle"></i>&nbsp;Operation Coordinator</div><div class="ps_career_rm_link"><a href="https://www.purplesupport.com.au/careers/care-coordinator/">(Find Out More)</a></div></div>
+</div></div>
+        </div>
+        <br>
+     <br>
     <div class=" contact">
         <form action="action_page.php">
             <h1>Join The Hope Ability</h1>

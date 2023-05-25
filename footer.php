@@ -11,6 +11,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <style>
         @media (max-width: 768px) {
             .footer-distributed {
@@ -29,7 +30,7 @@
 
 <body>
     <footer class="footer-distributed">
-
+    <div class="container-xxl">
         <div class="footer-left">
             <img src="./img/hopeability.png" class="img-footer">
             <p class="footer-company-about">
@@ -45,7 +46,7 @@
             <div>
                 <i class="fa-solid fa-location-dot"></i>
                 <span>Address</span>
-                <p>3 Grumman Court, Zuccoli, Northern Territory 0832</p>
+                <p>15/16 Charlton Ct Woolner NT 0820</p>
             </div>
 
             <div>
@@ -61,7 +62,7 @@
 
             <div class="privacy">
                 <span><a href="./privacy.php">Privacy Policy</a></span>
-                &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <span><a href="./terms.php">Terms & Conditions</a></span>
             </div>
         </div>
@@ -73,12 +74,13 @@
                 <a href="https://www.instagram.com/hope_ability/"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/hope-ability/"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="//twitter.com/Hopeabilityau"><i class="fa-brands fa-twitter"></i></a>
-                <img src="./img/I-Heart-NDIS_2020.svg">
+                <img src="./img/NDIS-provider.jpg">
             </div>
         </div>
 
         <hr>
         <p class="footer-company-name">Copyright @ 2021 All Rights Reserved</p>
+    </div>
     </footer>
 </body>
 

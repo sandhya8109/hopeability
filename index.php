@@ -23,11 +23,11 @@ include('header1.php')
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -54,10 +54,13 @@ include('header1.php')
 
 
     <!-- Carousel Start -->
+    
+    
     <div class="container-fluid p-0 mb-5">
+    <div class="container-xxl">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/front-view-smiley-girl-woman-indoors.jpg" alt="">
+                <img class="img-fluid" src="img/front-view-smiley-girl-woman-indoors.jpg" alt="" style="height:680px">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
@@ -68,8 +71,8 @@ include('header1.php')
                                 <p class="fs-5 text-white mb-4 pb-2">Personalised Disability & Home Care Services.</p>
                                 <a href="./contact.php"
                                     class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">CLICK HERE
-                                    TO GET STARTED</a>
-
+                                    TO GET STARTED
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -78,7 +81,7 @@ include('header1.php')
             <div class="owl-carousel-item position-relative">
                 <img class="img-fluid"
                     src="img/granddaughter-talking-with-her-grandmother-sitting-wheelchair-cheerful-concept-happy-family.jpg"
-                    alt="">
+                    alt="" style="height:680px">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
@@ -98,6 +101,7 @@ include('header1.php')
             </div>
         </div>
     </div>
+</div>
     <!-- Carousel End -->
 
 
@@ -199,15 +203,15 @@ include('header1.php')
         </div>
     </div>
     <!-- Mission End -->
-    <div style="background-color: #88bc6f;">
-        <div class="container-xxl py-5">
+    <div class="py-5" style="background-color: #88bc6f;">
+        <div class="container-xxl ">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
 
                     <h1 class="mb-5" style="color: #fff;">We Are Registered NDIS Provider</h1>
                     <a class="btn btn-primary py-3 px-5 "
                         style="border-radius: 10px; background-color: #24343899; border: #24343899; margin-bottom: 30px;"
-                        href="./resigter.php">Refer a Participant</a>
+                        href="./referalform.php">Refer a Participant</a>
                 </div>
             </div>
         </div>
@@ -227,10 +231,7 @@ include('header1.php')
             <div class="row g-4">
 
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <iframe class="position-relative rounded w-100 h-100"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                        frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3896.285332818512!2d130.85693517472464!3d-12.430699587837152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2cc093e0f0095555%3A0xba956485c51af35!2s15%2F16%20Charlton%20Ct%2C%20Woolner%20NT%200820%2C%20Australia!5e0!3m2!1sen!2snp!4v1685014517622!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
                     <form>
@@ -278,7 +279,9 @@ include('header1.php')
 
 
 
-
+    <?php
+include('footer.php')
+    ?>
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
@@ -295,8 +298,6 @@ include('header1.php')
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
-<?php
-include('footer.php')
-    ?>
+
 
 </html>

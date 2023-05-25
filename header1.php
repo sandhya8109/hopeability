@@ -66,8 +66,8 @@
                         <a href="./about.php" class="nav-item nav-link">About</a>
                         <a href="./resigter.php" class="nav-item nav-link">Registered NDIS Provider</a>
                         <a href="./contact.php" class="nav-item nav-link">Contact</a>
-                        <a href="./with us.php" class="nav-item nav-link">Work With Us</a>
-                        <a href="./blog.php" class="nav-item nav-link">Blog</a>
+                        <a href="./Workwithus/" class="nav-item nav-link">Work With Us</a>
+                        <a href="./blog.php" class="nav-item nav-link">Testimonials</a>
                     </div>
                     <div class="ms-auto d-none d-lg-block">
                         <a href="" class="btn btn-primary rounded-pill py-2 px-3">Search &nbsp;&nbsp;&nbsp;<i
